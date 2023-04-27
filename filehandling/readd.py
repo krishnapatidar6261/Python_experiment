@@ -1,0 +1,6 @@
+f = open("file.txt","r")
+#data= f.read()
+data1=f.readline()
+#print(data1)
+#print(f.readline(5))
+print(f.readlines(3))
